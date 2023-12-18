@@ -1,0 +1,22 @@
+Sınıflar arası bağımlılıklar olabildiğince
+az olmalıdır özellikle üst seviye sınıflar alt
+seviye sınıflara bağımlı olmamalıdır.
+
+•Bir sınıfın, metodun ya da özelliğin, onu kullanan
+diğer sınıflara karşı olan bağımlılığı en aza
+indirgenmelidir. Bir alt sınıfta yapılan değişiklikler üst
+sınıfları etkilememelidir.
+• Yüksek seviye sınıflarda bir davranış değiştiğinde, alt
+seviye davranışların bu değişime uyum sağlaması
+gerekir.
+• Ancak, düşük seviye sınıflarda bir davranış
+değiştiğinde, üst seviye sınıfların davranışında bir
+bozulma meydana gelmemelidir.
+• Dependency Inversion, yani üst sınıflar, alt
+seviyeli sınıflara bağlı olmamalı,
+• çözüm ise her ikisi de soyut kavramlar
+(abstraction) üzerinden yönetilebilmelidir.
+• Yüksek seviye ve düşük seviye sınıflar
+arasında bir soyutlama katmanı
+oluşturabiliriz.
+
